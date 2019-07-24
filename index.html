@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Original Flappy Bird -JavaScript</title>
+    <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+    <style>
+            body {
+            background-image: url(img/g.jpeg);
+            background-image: cover: background-repeat: no-repeat;
+            height: 900px;
+            width: 100%;
+            ;
+        }
+        
+        canvas {
+            border: 1px solid #000;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        footer {
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+            border: 8px;
+        }
+        
+        p {
+            text-align: center;
+            color: white;
+        }
+        
+        @media (max-width: 575.98px) {
+            canvas {
+                border: 1px solid #000;
+                display: block;
+                margin: 0 auto;
+                width: 250px;
+                height: 380px;
+            }
+            footer {
+                text-align: center;
+                justify-content: center;
+                background-color: black;
+                border: 8px;
+            }
+            p {
+                text-align: center;
+                color: black;
+            }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <canvas id="bird" width="350" height="480">
+        </canvas>
+        <section>
+            <footer>
+                <p> @copy Thekare-Tech-hub.edu</p>
+            </footer>
+            <marquee direction="right">Flappybird</marquee>
+        </section>
+    </section>
+    <script src="game.js"></script>
+</body>
+
+
+</html>
